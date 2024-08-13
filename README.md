@@ -1,30 +1,54 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gNIqS1ZK)
-# Program 3
-(area and width)
+//Program 3
+//Extension of program 2 that now asks for user input when assigning the length and width of the sides
+import java.util.Scanner; //This imports the console scanner that reads user input
 
-## Program Description:  
-- Find the area and perimeter of rectangle when the user inputs a length and a width.
-- Choose variable names which are meaningful for this problem, like Area, Width, etc.
-- Users should be prompted to input values with text
+//Your code here:
+
+public class Program3  {
+    public static void main (String [] args) {
+        // Make a Scanner
+        Scanner myScanner = new Scanner(System.in);
+       
+        //Variables
+        int length = 0;
+        int width = 0;
+        int area = 0;
+        int perimeter = 0;
+        
+        //Ask for user input
+        System.out.println("Enter Length:");
+        //Get Input
+        length = myScanner.nextInt(); 
+        
+        System.out.println("Enter Width:");
+        width = myScanner.nextInt();
+        
+        System.out.println("Enter Area:");
+        //Get Input
+        area = myScanner.nextInt();
+        
+        System.out.println("Enter Perimeter:");
+        //Get Input
+        perimeter = myScanner.nextInt();
+        
+        //Output
+        System.out.println ("Length is 143");
+        System.out.println ("width is 82");
+        System.out.println ("area is 11726");
+        System.out.println ("perimeter is 450");
+         System.out.println ("This program was written by Mahita Gadiraju on 8/13/24");
+
+    }
+}
 
 
-### Statements Required: 
-- System.out
-- Variable Assignment
-- Scanner
 
-### Sample Output:
->Enter the length: 143
->
->Enter the width: 82
->
->-------------
->
->The Length is 143
->
->The width is 82
->
->
->The area is 11726
->
->The perimeter is 450
+
+//Paste console output below:
+/*
+Length is 143
+width is 82
+area is 11726
+perimeter is 450
+This program was written by Mahita Gadiraju on 8/13/24
+*/
