@@ -32,10 +32,10 @@ public class Program3  {
         perimeter = myScanner.nextInt();
         
         //Output
-        System.out.println ("Length is 143");
-        System.out.println ("width is 82");
-        System.out.println ("area is 11726");
-        System.out.println ("perimeter is 450");
+        System.out.println ("Length is:" + length);
+        System.out.println ("width is:" + width);
+        System.out.println ("area is:" + area);
+        System.out.println ("perimeter is:" + perimeter);
          System.out.println ("This program was written by Mahita Gadiraju on 8/13/24");
 
     }
